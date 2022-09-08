@@ -3,7 +3,7 @@
 import os
 import signal
 
-mem=abs(int(os.environ.get('MEM',256)))
+mem=abs(int(os.environ.get('MEMORY',256)))
 print("Consuming "+str(mem)+"MB of memory ...")
 memory=' '*int(1024*1024*mem)
 
